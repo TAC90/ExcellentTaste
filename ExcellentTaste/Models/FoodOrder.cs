@@ -5,6 +5,7 @@ namespace ExcellentTaste.Models
 {
     public enum FoodStatus
     {
+        //Comment
         [Display(Name = "Besteld")] Ordered,
         [Display(Name = "Mee Bezig")] InProgress,
         [Display(Name = "Gereed")] Ready,

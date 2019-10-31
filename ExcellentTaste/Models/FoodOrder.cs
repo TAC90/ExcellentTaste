@@ -6,6 +6,7 @@ namespace ExcellentTaste.Models
     public enum FoodStatus
     {
         [Display(Name = "Besteld")] Ordered,
+        [Display(Name = "Mee Bezig")] InProgress,
         [Display(Name = "Gereed")] Ready,
         [Display(Name = "Geserveerd")] Delivered,
     }
